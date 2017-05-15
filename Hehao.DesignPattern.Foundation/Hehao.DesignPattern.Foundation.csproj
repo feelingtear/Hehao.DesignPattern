@@ -41,9 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsyncInvoker.cs" />
+    <Compile Include="GenericAdapterBase.cs" />
     <Compile Include="InvokeList.cs" />
     <Compile Include="OverloadableDelegateInvoker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RawGenericFactory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

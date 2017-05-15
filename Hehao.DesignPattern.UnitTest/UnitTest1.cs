@@ -40,5 +40,28 @@ namespace Hehao.DesignPattern.UnitTest
             Assert.AreEqual<int>(1 - 2, data["S"]);
             Assert.AreEqual<int>(1 * 2, data["M"]);
         }
+
+        /// <summary>
+        /// 反射方法创建对象，工厂模式
+        /// </summary>
+        [TestClass()]
+        public class RawGenericFactoryTest
+        {
+            interface IProduct
+            {
+            }
+            class ConcreteProduct:IProduct
+            {
+
+            }
+            [TestMethod]
+            public void Test()
+            {
+                string typeName = typeof(ConcreteProduct).AssemblyQualifiedName;
+                IProduct product = RawGenericFactory.Create<IProduct>(typeName);
+
+                Assert.AreEqual<string>(typeName, product.GetType().AssemblyQualifiedName);
+            }
+        }
     }
 }
