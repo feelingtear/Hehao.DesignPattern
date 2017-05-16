@@ -41,12 +41,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsyncInvoker.cs" />
+    <Compile Include="Attributes\AttributedBuilder.cs" />
+    <Compile Include="Attributes\DirectorAttribute.cs" />
     <Compile Include="GenericAdapterBase.cs" />
+    <Compile Include="Index\MutiColumnCollection.cs" />
+    <Compile Include="Index\SingleColumnCollection.cs" />
+    <Compile Include="Index\Staff.cs" />
     <Compile Include="InvokeList.cs" />
     <Compile Include="OverloadableDelegateInvoker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RawGenericFactory.cs" />
+    <Compile Include="UserBase.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
