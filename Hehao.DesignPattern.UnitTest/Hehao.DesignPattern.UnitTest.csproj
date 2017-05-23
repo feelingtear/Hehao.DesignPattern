@@ -55,6 +55,8 @@
   <ItemGroup>
     <Compile Include="Attributes\UnitTest1.cs" />
     <Compile Include="Index\UnitTest1.cs" />
+    <Compile Include="Iterators\UnitTest1.cs" />
+    <Compile Include="Operators\UnitTest1.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -63,6 +65,9 @@
       <Project>{109d7830-56bd-43f6-a1bf-d88baecc1d9d}</Project>
       <Name>Hehao.DesignPattern.Foundation</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

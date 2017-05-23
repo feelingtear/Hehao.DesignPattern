@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,11 +44,25 @@
     <Compile Include="AsyncInvoker.cs" />
     <Compile Include="Attributes\AttributedBuilder.cs" />
     <Compile Include="Attributes\DirectorAttribute.cs" />
+    <Compile Include="Config\ChapterConfigurationSelectionGroup.cs" />
+    <Compile Include="Config\NamedConfigurationElementBase.cs" />
+    <Compile Include="Config\NamedConfigurationElementCollectionBase.cs" />
+    <Compile Include="Config\ParagraphConfigurationSelectionBase.cs" />
     <Compile Include="GenericAdapterBase.cs" />
+    <Compile Include="Index\DashBoard.cs" />
     <Compile Include="Index\MutiColumnCollection.cs" />
     <Compile Include="Index\SingleColumnCollection.cs" />
     <Compile Include="Index\Staff.cs" />
     <Compile Include="InvokeList.cs" />
+    <Compile Include="IOC\Assembler.cs" />
+    <Compile Include="IOC\TimeProvider.cs" />
+    <Compile Include="Iterators\BinaryTreeNode.cs" />
+    <Compile Include="Iterators\CompositeIterator.cs" />
+    <Compile Include="Iterators\ObjectWithName.cs" />
+    <Compile Include="Iterators\RawIterator.cs" />
+    <Compile Include="Operators\Adaptee.cs" />
+    <Compile Include="Operators\ErrorEntity.cs" />
+    <Compile Include="Operators\Season.cs" />
     <Compile Include="OverloadableDelegateInvoker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RawGenericFactory.cs" />
