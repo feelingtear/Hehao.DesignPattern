@@ -44,6 +44,8 @@
     <Compile Include="AsyncInvoker.cs" />
     <Compile Include="Attributes\AttributedBuilder.cs" />
     <Compile Include="Attributes\DirectorAttribute.cs" />
+    <Compile Include="Cache\GenericCache.cs" />
+    <Compile Include="Common\TypeCreator.cs" />
     <Compile Include="Config\ChapterConfigurationSelectionGroup.cs" />
     <Compile Include="Config\NamedConfigurationElementBase.cs" />
     <Compile Include="Config\NamedConfigurationElementCollectionBase.cs" />
@@ -54,6 +56,7 @@
     <Compile Include="Index\SingleColumnCollection.cs" />
     <Compile Include="Index\Staff.cs" />
     <Compile Include="InvokeList.cs" />
+    <Compile Include="IObjectBuilder.cs" />
     <Compile Include="IOC\Assembler.cs" />
     <Compile Include="IOC\TimeProvider.cs" />
     <Compile Include="Iterators\BinaryTreeNode.cs" />
