@@ -33,6 +33,7 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,6 +51,7 @@
     <Compile Include="Config\NamedConfigurationElementBase.cs" />
     <Compile Include="Config\NamedConfigurationElementCollectionBase.cs" />
     <Compile Include="Config\ParagraphConfigurationSelectionBase.cs" />
+    <Compile Include="Context\GenericContext.cs" />
     <Compile Include="GenericAdapterBase.cs" />
     <Compile Include="Index\DashBoard.cs" />
     <Compile Include="Index\MutiColumnCollection.cs" />
